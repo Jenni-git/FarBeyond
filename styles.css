@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+
+body {
+	background-color: #333;
+	background:url(img/background_space.jpg);
+	font-family: 'Sintony', sans-serif;
+	
+	
+}
+
+#header {
+background-image:url('img/banner_farbeyond.jpg');
+background-size: cover;
+width:100%;
+height:494px;
+margin-left:auto;
+margin-right:auto;
+background-position:left;
+background-repeat:no-repeat;
+border-bottom: 1px solid white;
+		}
+
+a {
+    color: #e0c672;
+}
+		
+#headerbar {
+    height: auto;
+    background: black
+	border: 1px solid white;
+	margin-left: 200px;
+}
+#footteri {
+    height: auto;
+    background: black;
+}
+
+#sisaltoWrap {
+	color: #54fdff;
+	text-shadow: 2px 1px black;
+    width: auto;
+    margin-left: 200px;
+	margin-right: 200px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+    background: black;
+    height: auto;
+}
+
+
+// kiitos napista w3schools {}
+a.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #23201b;
+  border: 1px solid white;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+a.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+a.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+a.button:hover span {
+  padding-right: 25px;
+}
+
+a.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
